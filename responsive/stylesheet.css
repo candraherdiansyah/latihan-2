@@ -1,0 +1,48 @@
+/* menambahkan box size ke semua tag atau class */
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 20px;
+}
+
+.item {
+  width: 25%;
+  float: left;
+  /* Jarak Keluar kiri & kanan */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.item-box {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .item {
+    width: 50%;
+  }
+}
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+  .item {
+    width: 100%;
+  }
+}
